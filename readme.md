@@ -1,12 +1,12 @@
 
 # Adaptive Feature Enhancement Network for Semantic Segmentation
-![Graph](imgs/AFEModule.pdf)
+![image](imgs/AFEModule.png)
 
 ## Abstract
 Semantic segmentation is a fundamental and challenging problem in computer vision. Recent studies attempt to integrate feature information of different depths to improve the performance of segmentation tasks, and a few of them enhance the features before fusion. However, which areas of the feature should be strengthened and how to strengthen are still inconclusive. Therefore, in this work we propose an Adaptive Feature Enhancement Module (AFEM) that utilizes high-level features to adaptively enhance the key areas of low-level features. Meanwhile, an Adaptive Feature Enhancement Network (AFENet) is designed with AFEM to combine all the enhanced features. The proposed method is validated on representative semantic segmentation datasets, Cityscapes and PASCAL VOC 2012. In particular, 79.5% mIoU on the Cityscapes testing set is achieved without using ﬁne-val data, which is 1.1% higher than the baseline network and the model size is smaller.
 
 ## Performances
-![Graph](imgs/val_ex.pdf)
+![image](imgs/val_ex.png)
 
 ### On Cityscapes
 ![Table](imgs/result_on_cityscapes.png)
@@ -15,7 +15,7 @@ Semantic segmentation is a fundamental and challenging problem in computer visio
 ![Table](imgs/result_on_VOC.png)
 
 ## Models
-The weight of the model is under directory [save_models/cityscapes](save_models/cityscapes/).
+The weight of the model is under the directory [save_models/cityscapes](save_models/cityscapes/).
 ### Environment
 - torch           1.1.0
 - torchvision     0.3.0
